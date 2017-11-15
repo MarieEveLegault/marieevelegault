@@ -89,15 +89,15 @@ a {
 
 @font-face {
 	font-family: "MeriendaOne";
-	src: url("../Fonts/MeriendaOne-Regular.ttf"); format("truetype");
+	src: url("Fonts/MeriendaOne-Regular.ttf"); format("truetype");
 }
 
 @font-face {
 	font-family: "Megrim";
-	src: url("../Fonts/Megrim.ttf"); format("truetype");
+	src: url("Fonts/Megrim.ttf"); format("truetype");
 }
 
 @font-face {
 	font-family: "Raleway";
-	src: url("../Fonts/Raleway-Regular.ttf"); format("truetype");
+	src: url("Fonts/Raleway-Regular.ttf"); format("truetype");
 }
