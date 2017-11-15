@@ -1,0 +1,103 @@
+body {
+    background-color:whitesmoke;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    text-align: left;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    font-family: "MeriendaOne";
+    text-shadow: 0.1em 0.1em black;
+}
+
+h2 {
+    color: white;
+    text-align: right;
+    font-family: "Megrim";
+    font-size: 3em;
+    text-shadow: 0.1em 0.1em black;
+}
+
+h3{
+    color: white;
+    text-align: right;
+    font-family: "Raleway";
+    font-size: 2em;
+    text-shadow: 0.1em 0.1em black;
+    margin-top: -1em;
+}
+
+h4 {
+    font-family: "Megrim";
+    text-align: center;
+    border-bottom-color: rgb(75,75,75);
+    border: 0.1em solid;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.navigationBar {
+    background-color: rgb(75,75,75);
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.listHeader {
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+li {
+    float: right;
+    font-size: 1.6em;
+    font-family: "Megrim";
+    margin-left: 1em;
+    margin-right: 2em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    padding: 0em;
+    height: 40em;
+    margin-top: 0.3em;
+    position: relative;
+
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+@font-face {
+	font-family: "MeriendaOne";
+	src: url("../Fonts/MeriendaOne-Regular.ttf"); format("truetype");
+}
+
+@font-face {
+	font-family: "Megrim";
+	src: url("../Fonts/Megrim.ttf"); format("truetype");
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("../Fonts/Raleway-Regular.ttf"); format("truetype");
+}
